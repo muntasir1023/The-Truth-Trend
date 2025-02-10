@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Get in touch with us for any inquiries or information.">
+    <meta name="keywords" content="contact, inquiries, college, school">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            background: url('coverphoto.jpg') no-repeat center center fixed; /* Set background to match index.html */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #fff; /* Change text color to white */
+            padding: 20px;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+        h1 {
+            color: #ffcc00; /* Gold color */
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+            text-align: center;
+            color: #fff; /* Change text color to white */
+        }
+        form {
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); /* Sweet blue glow */
+            max-width: 400px;
+            width: 100%; /* Make form responsive */
+            position: relative; /* For positioning the glow */
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        input:focus, textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        footer {
+            background: rgba(0, 0, 38, 0.8);
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto; /* Push footer to the bottom */
+            color: #ffcc00; /* Black text color for footer */
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <main>
+            <p>Email: thetruthtrend01@gmail.com</p>
+            <p>Get in touch with us for any inquiries or information.</p>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2025 The Truth Trend. All rights reserved.</p>
+        </footer>
+
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
